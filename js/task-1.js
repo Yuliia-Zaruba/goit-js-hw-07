@@ -1,7 +1,7 @@
 const categoriesList = document.querySelector("#categories");
-const categoryItems = categoriesList.querySelectorAll(".items");
+const categoryItems = categoriesList.querySelectorAll(".item"); // Заміна .items на .item
 
-console.log(`Number of categories: ${categoryItems.lengs}`);
+console.log(`Number of categories: ${categoryItems.length}`);
 
 categoryItems.forEach((item) => {
   const title = item.querySelector("h2").textContent;
